@@ -1,0 +1,16 @@
+@startuml
+Server -> Server: start
+
+Client -> Server: Hi, I'm here
+Server --> Client: Welcome Client (ack)
+
+Client -> Server: Start(3s)
+Server --> Client: (all clients) new session; ends in 3s
+
+note over Server
+ 3 seconds later
+end note
+
+Server -> Client: (all clients) session is over
+
+@enduml
