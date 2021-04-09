@@ -22,7 +22,7 @@
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java-websocket.version>1.4.0</java-websocket.version>
+    <java-websocket.version>1.5.0</java-websocket.version>
   </properties>
 
   <dependencies>
